@@ -1,14 +1,14 @@
 # Text--NLP---Probability---Python
 
 # Instructions:
-=========================================================
+=======================================================================================================================================
 
 The input is a text file containing newline separated strings.
 
 Each string is a word, followed by a tab, followed by a topic.
 
 
-========================================
+-----------------------------------------
 #1. print the total number of lines.
 
 #2. Print the 10 most common lines.
@@ -30,9 +30,9 @@ Each string is a word, followed by a tab, followed by a topic.
 #10. Print the frequency of each word count.  For example, there might be 68 words than occur 4 times, and 9 words that occur 8 times, and so on.
 
 
-========================
+-----------------------
 Solutions
-=======================
+-------------------------
 word_topic1.py  includes: problem 1 - problem 6
 word_topic2.py  includes problem 7
 word_topic3.py  includes problem 8
@@ -55,7 +55,6 @@ Problem 8: my thought is:
                             
 and the average number is  my parameter to decide whether the word should be treated case-insensitively:  the idea is to find the difference of topic numbers  between case like words like  Apple, appLE, the bigger the number, the  more sensitive for a word(for average) to decide a topic. Therefore, which means a word sensitively change could lead to totally different topics.
 
--------
 
 Problem 9:   my thoughts is :
 
