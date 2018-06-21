@@ -1,7 +1,7 @@
 # Text--NLP---Probability---Python
 
 # Instructions:
-=========================================================================================================== 
+-------------------------
 The input is a text file containing newline separated strings.
 
 Each string is a word, followed by a tab, followed by a topic.
