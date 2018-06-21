@@ -1,13 +1,14 @@
 # Text--NLP---Probability---Python
 
 # Instructions:
+=========================================================
 
 The input is a text file containing newline separated strings.
 
 Each string is a word, followed by a tab, followed by a topic.
 
 
------------------------------------------------------
+========================================
 #1. print the total number of lines.
 
 #2. Print the 10 most common lines.
@@ -27,10 +28,11 @@ Each string is a word, followed by a tab, followed by a topic.
 #9. Write into your program a parameter which specifies the minimum number of times a line must be seen to be considered.
 
 #10. Print the frequency of each word count.  For example, there might be 68 words than occur 4 times, and 9 words that occur 8 times, and so on.
------------------------------------
 
 
--------------------------
+========================
+Solutions
+=======================
 word_topic1.py  includes: problem 1 - problem 6
 word_topic2.py  includes problem 7
 word_topic3.py  includes problem 8
@@ -39,15 +41,13 @@ word_topic4.py  includes problem 9 and 10
 
 Problem 5: firstly I find the 10 most common topics, then find the all the corresponding words, at last, chose the 10 most common words.
 
-----
 Problem 6: first find the topic number of a given word, then calculate the individual topic probability based on their repeated times.
-----
 
 Problem 7: almost the same with problem 6
-----
 
---------------------------
-Problem 8: my thought is    - get the dataframe of no repeated lines
+Problem 8: my thought is:   
+                             
+                            - get the dataframe of no repeated lines
                             - get the distinct words (get rid of the repated rows)
                             - compared two case like words (like Apple , appLE)
                             - get the difference of their topics numbers
@@ -58,9 +58,13 @@ and the average number is  my parameter to decide whether the word should be tre
 -------
 
 Problem 9:   my thoughts is :
-                            - get the dataframe of no repeated lines                                            
+
+                            - get the dataframe of no repeated lines.
+                            
                             - then sort the dataframe by column "count"( this is a new column added by me)
+                            
                             - reset the indexes
+                            
                             - then iterate from the first line, when the total weight is larger than 90% of the total count, then stop(which means of the iterated data could explain 90% of the total data, then stop and the  "count" number of the ith line is the bottom line for a data to be seen, to be convincible .
                             
                             - the print out  is the number of i (how many times it ran before met the goal; and the corresponding count number
